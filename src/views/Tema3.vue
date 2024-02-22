@@ -50,9 +50,9 @@
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 2.
             span Herramientas de gestión de requisitos
-          .tabla-a.color-acento-contenido.mb-5
+          .tabla-a.color-acento-contenido
             table
-              caption Nota: Tomada de Sevilla (2021).
+              caption Nota: Nota: Tomada de Sevilla (2021).
               thead
                 tr
                   th(style="background-color: #273A89" ).text-white.fst-italic  Requirements Management Tool
@@ -70,13 +70,33 @@
                   td Visure Solutions
                   td 
                     a(href="http://www.visuresolutions.com/products/index.php", target="_blank", rel="noopener noreferrer") hhttp://www.visuresolutions.com/products/index.php
-                  
                 tr.bg-white
-                  td Jama
+                  td Reqtify
                   td Dassault Systèmes
                   td 
-                    a(href="http://www.3ds.com/products-services/catia/capabilities/systems-engineering/requirements-engineering/reqtify/", target="_blank", rel="noopener noreferrer") http://www.3ds.com/products-services/catia/capabilities/systems-engineering/requirements-engineering/reqtify/
-    .fondo-3.p-5.mn
+                    a.mt-1(href="https://www.claytex.com/products/reqtify/"  target="_blank") claytex.com/products/reqtify
+                tr.bg-white
+                  td Jama
+                  td Jama Software
+                  td 
+                    a.mt-1(href="http://www.jamasoftware.com/"  target="_blank") jamasoftware.com
+                tr.bg-white
+                  td Accept 360
+                  td Accept Software 
+                  td 
+                    a.mt-1(href="https://www3.technologyevaluation.com/solutions/17078/accept360"  target="_blank") technologyevaluation.com/solutions/17078/accept360
+                tr.bg-white
+                  td Gatherspace
+                  td Gatherspace
+                  td 
+                    a.mt-1(href="https://www.gatherspace.com/project-management-software-solutions/"  target="_blank") gatherspace.com/project-management-software-solutions/
+                tr.bg-white
+                  td RequisitePro
+                  td IBM Rational
+                  td 
+                    a.mt-1(href="https://www.ibm.com/support/pages/rational-requisitepro-713"  target="_blank") ibm.com/support/pages/rational-requisitepro-713
+                
+    .fondo-3.p-5.pt-0.mn
       p.mb-5(data-aos='fade-right') #[span.resalte La norma ISO 24766 (#[em Information Technology - Guide for Requirements Tool Capabilites)]] ayuda a seleccionar una herramienta adecuada de gestión de requisitos, pues la misma proporciona una orientación sobre los aportes de estas herramientas.
         br
         br
