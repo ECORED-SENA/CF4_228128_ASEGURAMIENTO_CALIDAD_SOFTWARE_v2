@@ -16,13 +16,15 @@
           img(src='@/assets/curso/temas/17.svg', alt='').m-auto
           .titulo-card.d-inline-block(style="background-color: #3EE2A8").p-1.px-3.mb-3
             h4.d-inline-block.mb-0 Requerimientos duraderos:
-          p.text-white Son relativamente estables y normalmente se derivan de las actividades principales de la organización y están directamente relacionados con el dominio del sistema (Easterbrook, 1993). Por ejemplo, en un sistema académico los requerimientos relacionados con la gestión de estudiantes, profesores y grupos hacen parte del dominio y, seguramente, el modelo de negocio asociado a estos requerimientos no van a cambiar mucho en el tiempo.
+          .texto-card
+            p.text-white Son relativamente estables y normalmente se derivan de las actividades principales de la organización y están directamente relacionados con el dominio del sistema (Easterbrook, 1993). Por ejemplo, en un sistema académico los requerimientos relacionados con la gestión de estudiantes, profesores y grupos hacen parte del dominio y, seguramente, el modelo de negocio asociado a estos requerimientos no van a cambiar mucho en el tiempo.
       .col-lg-6.mb-lg-0.mb-3
         .p-5(style="background-color: #3EE2A8")
           img(src='@/assets/curso/temas/18.svg', alt='').m-auto
           .titulo-card.d-inline-block(style="background-color: #00104E").p-1.px-3.mb-3
             h4.d-inline-block.mb-0.text-white Requerimientos volátiles:
-          p Son los que, muy probablemente, cambian durante el proceso del desarrollo del sistema o después que este entra en funcionamiento. Por ejemplo, en un sistema académico un requerimiento asociado al proceso de pago de pensión podría definirse de forma manual en un principio; es decir, la secretaria una vez reciba el dinero o los recibos de pago registra el pago en el sistema, más adelante si la institución educativa adquiere un servicio de pasarela de pagos en línea el requerimiento podría modificarse totalmente.
+          .texto-card
+            p Son los que, muy probablemente, cambian durante el proceso del desarrollo del sistema o después que este entra en funcionamiento. Por ejemplo, en un sistema académico un requerimiento asociado al proceso de pago de pensión podría definirse de forma manual en un principio; es decir, la secretaria una vez reciba el dinero o los recibos de pago registra el pago en el sistema, más adelante si la institución educativa adquiere un servicio de pasarela de pagos en línea el requerimiento podría modificarse totalmente.
     .p-5(style="background-color: #DEE1ED")
       p.fw-bold Los requerimientos volátiles según Sommerville (2011) se clasifican en:
       .row.justify-content-center.align-items-center

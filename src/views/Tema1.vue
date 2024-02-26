@@ -58,16 +58,16 @@
             | #[b Adaptabilidad:] ¿El cambio en el requerimiento impacta o no a gran escala sobre otros requerimientos?
       .row.justify-content-center.mb-5
         .col-lg-10
-          .tarjeta.gradient-box.p-3.mb-5
+          .tarjeta.bg-secondary.p-3.mb-5
             .row.justify-content-around.align-items-center
-              .col-3.col-sm-2.col-lg-1
+              .col-lg-auto(style="max-width: 112px").d-none.d-lg-block
                 img(src="@/assets/curso/temas/5.svg")
-              .col-10
+              .col-lg
                 .row.justify-content-between.align-items-center
-                  .col-9.mb-0.mb-sm-0.text-white
+                  .col-12.col-lg-9.mb-0.mb-sm-0.text-white
                     h3.mb-1 Infografía - Validación de requerimientos
                     p.text-small La validación de los requerimientos busca ratificar que los requerimientos realmente están especificando lo que el cliente desea y necesita.
-                  .col.mb-3.mb-sm-0
+                  .col-12.col-lg-auto.mb-3.mb-sm-0
                     a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
                       span(style="color: #12263F") Descargar 
                       i.fas.fa-file-download(style="color: #12263F")
@@ -106,16 +106,77 @@
                 br
                 |Aunque un prototipo podría ser una sencilla representación gráfica del sistema en papel o la representación de interfaces del sistema usando herramientas de ofimática, existen varias herramientas gratuitas y de pago que facilitan la construcción de prototipos, algunas de ellas solo requieren un registro de correo electrónico para acceder a sus funcionalidades directamente desde el navegador, y otras requieren la descarga e instalación en el equipo donde se planean construir los prototipos.
     p.mb-5(data-aos='fade-right').fw-bold Algunas herramientas recomendadas son las siguientes:
-    .row.justify-content-center.mb-lg-3
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/8.png', alt='')
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/9.png', alt='')
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/10.png', alt='')
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/11.png', alt='')
-    .row.justify-content-center.mb-5
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/12.png', alt='')
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/13.png', alt='')
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/14.png', alt='')
-      .col-lg-2.col-5.mb-lg-0.mb-3: img(src='@/assets/curso/temas/15.png', alt='')
+
+    .row.justify-content-center
+      .col-xl-10
+        .row.justify-content-center.mb-4
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo1.svg", alt="Logo de Adobe XD")
+              .h6.text-center Adobe XD
+              p.mt-0.text-center
+                a.mt-1(href="https://www.adobe.com/la/products/xd.html") www.adobe.com
+
+
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo2.svg", alt="Logo de Marvel App")
+              .h6.text-center Marvel App
+              p.mt-0.text-center
+                a.mt-1(href="https://www.marvelapp.com") www.marvelapp.com 
+
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo3.svg", alt="Logo de Moqups")
+              .h6.text-center Moqups
+              p.mt-0.text-center
+                a.mt-1(href="https://www.moqups.com") www.moqups.com
+
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo4.svg", alt="Logo de LucidChart")
+              .h6.text-center LucidChart
+              p.mt-0.text-center
+                a.mt-1(href="https://www.lucidchart.com/pages/es") www.lucidchart.com
+
+        .row.justify-content-center.mb-4
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo5.svg", alt="Logo de Proto.io")
+              .h6.text-center Proto.io
+              p.mt-0.text-center
+                a.mt-1(href="https://www.proto.io") www.proto.io
+
+
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo6.svg", alt="Logo de Balsamiq")
+              .h6.text-center Balsamiq
+              p.mt-0.text-center
+                a.mt-1(href="https://www.balsamiq.com") www.balsamiq.com
+
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo7.svg", alt="Logo de Wirify")
+              .h6.text-center Wirify
+              p.mt-0.text-center
+                a.mt-1(href="https://www.wirify.com")  www.wirify.com
+
+          .col-xl-3.col-md-6
+            .bg-blueligth.p-4
+              figure
+                img(src="@/assets/curso/temas/logos/logo8.svg", alt="Logo de Picodo")
+              .h6.text-center Picodo
+              p.mt-0.text-center
+                a.mt-1(href="https://www.pidoco.com/en")  www.pidoco.com
+    
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Generación de casos de prueba
@@ -174,13 +235,6 @@
                   td 3
                   td 3
                   
-
-
-
-
-
-
-
 </template>
 
 <script>

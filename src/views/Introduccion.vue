@@ -8,7 +8,7 @@
         span
           i.fas.fa-info
       h1 Introducción
-    div(style="background-color: #1682FB").p-4.mb-4
+    div(style="background-color: #273A89").p-4.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-1: img(src='@/assets/curso/intro/1.png', alt='')
         .col-lg-11
