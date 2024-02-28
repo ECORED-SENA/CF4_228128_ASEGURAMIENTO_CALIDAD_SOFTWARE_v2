@@ -13,22 +13,22 @@
         .row.justify-content-center.align-items-center
           .col-lg-5.col-6.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/1.svg', alt='')
           .col-lg-7(data-aos="fade-left")
-            ul.lista-ul--color
+            ul.lista-ul--color.fa-ul
               li.d-flex
-                i.fas.fa-circle.fa-xs
-                p.mb-0 Verificación de validez: los requerimientos son razonables e identifican realmente todas las funciones necesarias para cumplir con las necesidades del cliente.
+                i.fas.fa-circle.fa-xxs
+                span #[strong Verificación de validez:] los requerimientos son razonables e identifican realmente todas las funciones necesarias para cumplir con las necesidades del cliente.
               li.d-flex
-                i.fas.fa-circle.fa-xs
-                p.mb-0 Verificación de consistencia: los requerimientos no presentan contradicciones.
+                i.fas.fa-circle.fa-xxs
+                span #[strong Verificación de consistencia:] los requerimientos no presentan contradicciones.
               li.d-flex
-                i.fas.fa-circle.fa-xs
-                p.mb-0 Verificaciones de completitud: se incluyen todas las funcionalidades y restricciones definidas por los usuarios del sistema.
+                i.fas.fa-circle.fa-xxs
+                span #[strong Verificaciones de completitud:] se incluyen todas las funcionalidades y restricciones definidas por los usuarios del sistema.
               li.d-flex
-                i.fas.fa-circle.fa-xs
-                p.mb-0 Verificaciones de realismo: los requerimientos son realizables de acuerdo con la tecnología existente, el presupuesto y los tiempos definidos.
+                i.fas.fa-circle.fa-xxs
+                span #[strong Verificaciones de realismo:] los requerimientos son realizables de acuerdo con la tecnología existente, el presupuesto y los tiempos definidos.
               li.d-flex
-                i.fas.fa-circle.fa-xs
-                p.mb-0 Verificabilidad: es posible demostrar la realización de cada requerimiento y que hace lo que debe hacer. Es decir, existe una forma clara en la que se le pueda realizar pruebas.
+                i.fas.fa-circle.fa-xxs
+                span #[strong Verificabilidad:] es posible demostrar la realización de cada requerimiento y que hace lo que debe hacer. Es decir, existe una forma clara en la que se le pueda realizar pruebas.
 
     p.mb-5(data-aos='fade-right').fw-bold Existen varias técnicas que pueden usarse para la validación de requisitos, como se puede revisar a continuación.
     Separador
@@ -56,19 +56,20 @@
             | #[b Rastreabilidad:] ¿Es posible observar el origen del requerimiento y también evaluar los cambios que pueden generar en el sistema?
             br
             | #[b Adaptabilidad:] ¿El cambio en el requerimiento impacta o no a gran escala sobre otros requerimientos?
-      .row.justify-content-center.mb-5
+      .row.justify-content-center
         .col-lg-10
-          .tarjeta.bg-secondary.p-3.mb-5
+          .tarjeta.bg-secondary.p-4.mb-5
             .row.justify-content-around.align-items-center
-              .col-lg-auto(style="max-width: 112px").d-none.d-lg-block
-                img(src="@/assets/curso/temas/5.svg")
+              .col-lg-auto(style="max-width: 100px").d-none.d-lg-block
+                .p-1
+                  img(src="@/assets/curso/temas/5.svg")
               .col-lg
                 .row.justify-content-between.align-items-center
                   .col-12.col-lg-9.mb-0.mb-sm-0.text-white
                     h3.mb-1 Infografía - Validación de requerimientos
                     p.text-small La validación de los requerimientos busca ratificar que los requerimientos realmente están especificando lo que el cliente desea y necesita.
                   .col-12.col-lg-auto.mb-3.mb-sm-0
-                    a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank" type="application/pdf")
+                    a.boton.color-acento-botones(:href="obtenerLink('downloads/Infografia_Validacionderequerimientos.pdf')" target="_blank" type="application/pdf")
                       span(style="color: #12263F") Descargar 
                       i.fas.fa-file-download(style="color: #12263F")
     Separador
@@ -81,20 +82,20 @@
       figcaption Video: Leyenda del video
     .p-4(style="background-color: #DEE1ED").mb-5
       p.fw-bold Por otra parte, el uso inadecuado de los prototipos también puede generar algunos riesgos, entre los que se encuentran:
-      .row.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-start
         .col-lg-1.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/6.svg', alt='')
         .col-lg-11
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li
-              i.fas.fa-circle.fa-xs
-              | El prototipado puede estimular un número excesivo de cambios de peticiones.
+              i.fas.fa-circle.fa-xxs
+              span El prototipado puede estimular un número excesivo de cambios de peticiones.
 
             li
-              i.fas.fa-circle.fa-xs
-              | Los prototipos operativos pueden inducir a pensar a la directiva y a los clientes que el producto final está prácticamente dispuesto para su salida al mercado.
+              i.fas.fa-circle.fa-xxs
+              span Los prototipos operativos pueden inducir a pensar a la directiva y a los clientes que el producto final está prácticamente dispuesto para su salida al mercado.
             li
-              i.fas.fa-circle.fa-xs
-              | Los prototipos pueden encarecer el producto.
+              i.fas.fa-circle.fa-xxs
+              span Los prototipos pueden encarecer el producto.
     .p-4(style="background-color: #BAE9D9").mb-5
       .p-5.bg-white
         .row.justify-content-center.align-items-center
@@ -110,72 +111,72 @@
     .row.justify-content-center
       .col-xl-10
         .row.justify-content-center.mb-4
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo1.svg", alt="Logo de Adobe XD")
               .h6.text-center Adobe XD
               p.mt-0.text-center
-                a.mt-1(href="https://www.adobe.com/la/products/xd.html") www.adobe.com
+                a.mt-1(href="https://www.adobe.com/la/products/xd.html",target="_blank") www.adobe.com
 
 
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo2.svg", alt="Logo de Marvel App")
               .h6.text-center Marvel App
               p.mt-0.text-center
-                a.mt-1(href="https://www.marvelapp.com") www.marvelapp.com 
+                a.mt-1(href="https://www.marvelapp.com",target="_blank") www.marvelapp.com 
 
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo3.svg", alt="Logo de Moqups")
               .h6.text-center Moqups
               p.mt-0.text-center
-                a.mt-1(href="https://www.moqups.com") www.moqups.com
+                a.mt-1(href="https://www.moqups.com",target="_blank") www.moqups.com
 
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo4.svg", alt="Logo de LucidChart")
               .h6.text-center LucidChart
               p.mt-0.text-center
-                a.mt-1(href="https://www.lucidchart.com/pages/es") www.lucidchart.com
+                a.mt-1(href="https://www.lucidchart.com/pages/es",target="_blank") www.lucidchart.com
 
         .row.justify-content-center.mb-4
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo5.svg", alt="Logo de Proto.io")
               .h6.text-center Proto.io
               p.mt-0.text-center
-                a.mt-1(href="https://www.proto.io") www.proto.io
+                a.mt-1(href="https://www.proto.io",target="_blank") www.proto.io
 
 
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo6.svg", alt="Logo de Balsamiq")
               .h6.text-center Balsamiq
               p.mt-0.text-center
-                a.mt-1(href="https://www.balsamiq.com") www.balsamiq.com
+                a.mt-1(href="https://www.balsamiq.com",target="_blank") www.balsamiq.com
 
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo7.svg", alt="Logo de Wirify")
               .h6.text-center Wirify
               p.mt-0.text-center
-                a.mt-1(href="https://www.wirify.com")  www.wirify.com
+                a.mt-1(href="https://www.wirify.com",target="_blank")  www.wirify.com
 
-          .col-xl-3.col-md-6
+          .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
                 img(src="@/assets/curso/temas/logos/logo8.svg", alt="Logo de Picodo")
               .h6.text-center Picodo
               p.mt-0.text-center
-                a.mt-1(href="https://www.pidoco.com/en")  www.pidoco.com
+                a.mt-1(href="https://www.pidoco.com/en",target="_blank")  www.pidoco.com
     
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')

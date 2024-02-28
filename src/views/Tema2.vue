@@ -27,23 +27,23 @@
             p Son los que, muy probablemente, cambian durante el proceso del desarrollo del sistema o después que este entra en funcionamiento. Por ejemplo, en un sistema académico un requerimiento asociado al proceso de pago de pensión podría definirse de forma manual en un principio; es decir, la secretaria una vez reciba el dinero o los recibos de pago registra el pago en el sistema, más adelante si la institución educativa adquiere un servicio de pasarela de pagos en línea el requerimiento podría modificarse totalmente.
     .p-5(style="background-color: #DEE1ED")
       p.fw-bold Los requerimientos volátiles según Sommerville (2011) se clasifican en:
-      .row.justify-content-center.align-items-center
+      .row.justify-content-center.align-items-top
         .col-lg-1.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/5.svg', alt='')
         .col-lg-11
-          ul.lista-ul
+          ul.lista-ul.fa-ul
             li.d-flex
-              i.fas.fa-circle.fa-xs
-              p.mb-0 #[b Requerimientos cambiantes:] cambian de acuerdo con el entorno, por ejemplo: una pandemia.
+              i.fas.fa-circle.fa-xxs
+              span #[b Requerimientos cambiantes:] cambian de acuerdo con el entorno, por ejemplo: una pandemia.
 
             li.d-flex
-              i.fas.fa-circle.fa-xs
-              p.mb-0 #[b Requerimientos emergentes:] surgen como producto de un mejor entendimiento del sistema, por ejemplo, al estructurar el diseño de las interfaces del sistema puede ser que se requieran adicionar componentes que no estaban contemplados.
+              i.fas.fa-circle.fa-xxs
+              span #[b Requerimientos emergentes:] surgen como producto de un mejor entendimiento del sistema, por ejemplo, al estructurar el diseño de las interfaces del sistema puede ser que se requieran adicionar componentes que no estaban contemplados.
             li.d-flex
-              i.fas.fa-circle.fa-xs
-              p.mb-0 #[b Requerimientos consecuentes:] son resultado de la puesta en marcha de un sistema. Generalmente la adopción de un nuevo sistema involucra el cambio de procesos e incluso roles dentro de la organización que, a la vez, puede influir en cambios en los requerimientos del sistema.
+              i.fas.fa-circle.fa-xxs
+              span #[b Requerimientos consecuentes:] son resultado de la puesta en marcha de un sistema. Generalmente la adopción de un nuevo sistema involucra el cambio de procesos e incluso roles dentro de la organización que, a la vez, puede influir en cambios en los requerimientos del sistema.
             li.d-flex
-              i.fas.fa-circle.fa-xs
-              p.mb-0 #[b Requerimientos de compatibilidad:] dependen de otros sistemas o procesos, cuando estos cambian generalmente producen también cambios en los requerimientos dependientes.
+              i.fas.fa-circle.fa-xxs
+              span #[b Requerimientos de compatibilidad:] dependen de otros sistemas o procesos, cuando estos cambian generalmente producen también cambios en los requerimientos dependientes.
 
 
 

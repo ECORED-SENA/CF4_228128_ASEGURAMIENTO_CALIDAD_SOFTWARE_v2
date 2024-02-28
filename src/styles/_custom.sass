@@ -27,9 +27,11 @@
   background-image: url('../assets/curso/portada/banner_interno.png') !important
 .fondo-1
   background-image: url('../assets/curso/temas/fondo1.svg')
-  background-position: start
+  background-position: 0px 0px
   background-repeat: no-repeat
   background-size: cover
+  @media(min-width: $bp-min-lg) 
+    background-position: 0px -70px
 .fondo-2
   background-image: url('../assets/curso/temas/fondo2.svg')
   background-position: start
@@ -71,3 +73,24 @@ span.resalte
     min-height: 280px
   @media (max-width: 991.98px)
     min-height: auto
+
+.rounded
+  border-radius: .9rem !important
+
+.fa-ul
+  margin-left: 0 !important
+  li
+    display: flex !important
+    align-items: top
+    &:before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.fa-xxs 
+  font-size: .45em
+
+.lista-ul--color li > i:first-of-type
+  color: #3EE2A8
+.fa-ul li > i:first-of-type
+  margin-top: 2px

@@ -25,7 +25,7 @@
           .titulo-card.d-inline-block(style="background-color: #00104E").p-1.px-3.mb-3
             h4.d-inline-block.mb-0.text-white Herramientas complejas:
           p Para una planificación de gestión de requisitos más compleja, se necesita un sistema de software completo para administrar las relaciones entre los requisitos, analizar el impacto de cualquier cambio, administrar las aprobaciones y demás aspectos.
-    p.mb-5(data-aos='fade-right').fw-bold De acuerdo con el mismo autor, las herramientas de gestión de requisitos se caracterizan por las siguientes propiedades:
+    p.mb-0(data-aos='fade-right').fw-bold De acuerdo con el mismo autor, las herramientas de gestión de requisitos se caracterizan por las siguientes propiedades:
     .fondo-3.mn.p-5.mb-5
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-4.col-6.mb-lg-0.mb-3: img(src='@/assets/curso/temas/22.png', alt='')
@@ -46,7 +46,7 @@
               p.mb-0 #[b Gestión de la trazabilidad:] se puede ver a nivel histórico los cambios realizados en los requisitos con su marca de tiempo y usuarios involucrados.
     p.mb-5(data-aos='fade-right').fw-bold Las siguientes herramientas principalmente ayudan a documentar, analizar, buscar, priorizar y trazar los requisitos:
     .row.justify-content-center.mb-5
-        .col-lg-10
+        .col
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
             h5 Tabla 2.
             span Herramientas de gestión de requisitos
