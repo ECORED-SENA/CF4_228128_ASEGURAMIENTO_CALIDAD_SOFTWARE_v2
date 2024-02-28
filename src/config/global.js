@@ -117,32 +117,108 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Validación de requerimientos',
+      referencia:
+        'Axelo 19. (7 de julio de 2019). Adobe Xd-Prototipado interactivo de aplicaciones y páginas web (sin programación).',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=AQjU9-zc4Hk',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '1. Validación de requerimientos',
+      referencia:
+        'Fundación Educreatic. (2018, 19 abril). Crear prototipo pagina web en mockup balsamiq (caso de estudio Kiri).',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=VMzckBNgoNc',
+    },
+    {
+      tema: '1.2. Construcción de prototipos',
+      referencia:
+        'León, C. (12 de noviembre de 2018). Diseño de interfaz de usuario de app con MarvelApp.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=GG3ab1058Yw',
+    },
+    {
+      tema: '1.3. Generación de casos de prueba',
+      referencia: 'Nastaquias, R. (27 de mayo de 2019). Tutorial de Moqups.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=H4OZE1e1MW8',
+    },
+    {
+      tema: '3. Herramientas para la gestión de requisitos',
+      referencia:
+        'Overti. (08 de abril de 2021). Herramientas de gestión de requisitos.',
+      tipo: 'Página web',
+      link: 'https://www.overti.es/index.php',
+    },
+    {
+      tema: '3. Herramientas para la gestión de requisitos',
+      referencia:
+        'Barón, A. (08 de abril de 2021). Herramientas para apoyar ingeniería de requisitos.',
+      tipo: 'Presentación',
+      link:
+        'https://prezi.com/kuflo3saesne/herramientas-para-apoyar-ingenieria-de-requisitos/',
+    },
+    {
+      tema: '3. Herramientas para la gestión de requisitos',
+      referencia:
+        'IBM Rational RequisitePro Integration. (10 de septiembre de 2020). Integrate RequisitePro.',
+      tipo: 'Página web',
+      link:
+        'https://www.opshub.com/integrations/ibm-rational-requisitepro-integration/',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Prueba conceptual',
+      significado:
+        'Las pruebas de concepto ofrecen conclusiones para diseñar un producto o servicio mejor. Además, permiten evaluar el éxito de estas ideas de productos nuevos antes de su comercialización.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: '<i>Stakeholders</i>',
+      significado:
+        'Son todas aquellas personas interesadas en la construcción del <i>software</i> que de una u otra forma se relacionan con las actividades, se afecta por estas actividades o toma parte en las decisiones de la empresa o negocio sobre el cual se está haciendo el levantamiento de requerimientos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Ballesteros, E., Tellez, F. R., y Medina, J. (2020). <i>Software requirements: prototyping, legacy software, and document analysis</i>. Ingeniería y Desarrollo, 37(2), 327–345.',
+      link: 'https://doi.org/10.14482/inde.37.2.1053',
+    },
+    {
+      referencia:
+        '<i>Easterbrook, S, Lutz, R, et al. (1998). Experiences using lightweight formal methods for requirements modeling. IEE Trans. On Software Engineering</i>, 24(1), 4-14. (ch 10).',
       link: '',
+    },
+    {
+      referencia:
+        'Pantaleo, G., y Rinaudo L. (2018). Ingeniería de <i>Software</i>. Alfaomega.',
+      link: '',
+    },
+    {
+      referencia:
+        'Penzenstadler, B. (s. f.). <i>Requirements Engineering. CSU Long Beach.</i>',
+      link: 'https://bit.ly/3rtBKXN ',
+    },
+    {
+      referencia:
+        'Porfirio, C. (s. f.). Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades. atSistemas - Consultoría IT Blog.',
+      link: 'https://bit.ly/3cvumqz ',
+    },
+    {
+      referencia:
+        'Rivadeneira, M., S. G. (2014). Metodologías ágiles enfocadas al modelado de requerimientos. Informes Científicos Técnicos - UNPA, 5(1), 1–29.',
+      link: 'https://doi.org/10.22305/ict-unpa.v5i1.66',
+    },
+    {
+      referencia:
+        'Sommerville I. (2011). Ingeniería del <i>software</i>. Addison-Wesley.',
+      link: '',
+    },
+    {
+      referencia: 'Sevilla, J. (2021). Herramientas de gestión de requisitos. ',
+      link:
+        'http://www.overti.es/tecnologia/296-herramientas-de-gestion-de-requisitos',
     },
   ],
   creditos: [
@@ -252,20 +328,12 @@ export default {
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Zuleidy María Ruíz Torres',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Luis Gabriel Urueta Álvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
