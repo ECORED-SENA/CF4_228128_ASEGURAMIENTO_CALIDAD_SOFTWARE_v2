@@ -37,12 +37,12 @@
       h2 1.1 Revisiones de requerimientos
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-        p Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del software así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
+        p Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del <i>software</i> así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
         .p-4(style="background-color: #BAE9D9 ")
           .row.justify-content-center.align-items-center
             .col-lg-2.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2.svg', alt='')
             .col-lg-10
-              p.mb-0(data-aos='fade-right') Esta revisión se puede realizar de manera informal o formal (Sommerville, 2011). En una revisión informal, se requiere verificar, con tantos stakeholders como sea posible, el documento generado para recibir confirmación por parte de ellos de que lo escrito sí refleja su deseo. Esta revisión informal permite, de manera muy sencilla, detectar muchos problemas antes de establecer cualquier formalismo de revisión.
+              p.mb-0(data-aos='fade-right') Esta revisión se puede realizar de manera informal o formal (Sommerville, 2011). En una revisión informal, se requiere verificar, con tantos <i>stakeholders</i> como sea posible, el documento generado para recibir confirmación por parte de ellos de que lo escrito sí refleja su deseo. Esta revisión informal permite, de manera muy sencilla, detectar muchos problemas antes de establecer cualquier formalismo de revisión.
       .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/3.png', alt='')
     .fondo-1.p-4
       p(data-aos='fade-right') En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos y explicando cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. #[b Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:]
@@ -186,7 +186,7 @@
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.mb-lg-0.mb-3
           .cajon-b.color-acento-contenido.p-3.mb-5
-            p.mb-0 #[b La validación de requisitos por casos de prueba requiere el desarrollo de cuatros fases:] i) planeación de la prueba. Aquí se define la estrategia a utilizar, el alcance de la prueba a realizar y los tiempos requeridos para el desarrollo de la prueba; ii) diseño de los casos de prueba; iii) ejecución de los casos de prueba y iv) elaboración del informe final de la prueba donde se describen los aspectos más importantes y hallazgos de la ejecución de la prueba (Pantaleo, 2018).
+            p.mb-0 #[b La validación de requisitos por casos de prueba requiere el desarrollo de cuatro fases:] i) planeación de la prueba. Aquí se define la estrategia a utilizar, el alcance de la prueba a realizar y los tiempos requeridos para el desarrollo de la prueba; ii) diseño de los casos de prueba; iii) ejecución de los casos de prueba y iv) elaboración del informe final de la prueba donde se describen los aspectos más importantes y hallazgos de la ejecución de la prueba (Pantaleo, 2018).
               br
               br
               | #[b De otra parte, el diseño de un caso de prueba requiere:] i) la construcción de un instrumento donde se debe detallar para cada requerimiento si existen precondiciones, es decir, si se requieren de actividades o valores previos para poder iniciar la ejecución del requerimiento; ii) identificar los pasos a seguir para la validación de un requisito y iii) los resultados esperados de la realización de cada paso.

@@ -24,7 +24,7 @@
           img(src='@/assets/curso/temas/21.svg', alt='' style="width: 73px").mb-4
           .titulo-card.d-inline-block(style="background-color: #00104E").p-1.px-3.mb-3
             h4.d-inline-block.mb-0.text-white Herramientas complejas:
-          p Para una planificación de gestión de requisitos más compleja, se necesita un sistema de software completo para administrar las relaciones entre los requisitos, analizar el impacto de cualquier cambio, administrar las aprobaciones y demás aspectos.
+          p Para una planificación de gestión de requisitos más compleja, se necesita un sistema de <i>software</i> completo para administrar las relaciones entre los requisitos, analizar el impacto de cualquier cambio, administrar las aprobaciones y demás aspectos.
     p.mb-0(data-aos='fade-right').fw-bold De acuerdo con el mismo autor, las herramientas de gestión de requisitos se caracterizan por las siguientes propiedades:
     .fondo-3.mn.p-5.mb-5
       .row.justify-content-center.align-items-center.mb-5
@@ -69,7 +69,7 @@
                   td Visure Requirements
                   td Visure Solutions
                   td 
-                    a(href="http://www.visuresolutions.com/products/index.php", target="_blank", rel="noopener noreferrer") hhttp://www.visuresolutions.com/products/index.php
+                    a(href="http://www.visuresolutions.com/products/index.php", target="_blank", rel="noopener noreferrer") https://visuresolutions.com/visure-requirements-system-requirements/index.php
                 tr.bg-white
                   td Reqtify
                   td Dassault Systèmes

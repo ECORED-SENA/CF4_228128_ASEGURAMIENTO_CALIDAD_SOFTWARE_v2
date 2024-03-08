@@ -310,10 +310,10 @@ export default {
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
+          nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
