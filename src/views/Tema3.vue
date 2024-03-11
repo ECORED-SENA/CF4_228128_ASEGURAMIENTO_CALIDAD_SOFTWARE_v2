@@ -57,43 +57,43 @@
                 tr
                   th(style="background-color: #273A89" ).text-white.fst-italic  Requirements Management Tool
                   th(style="background-color: #273A89" ).text-white.fst-italic Company
-                  th(style="background-color: #273A89" ).text-white URL
-              tbody.fst-italic
+                  //th(style="background-color: #273A89" ).text-white URL
+              tbody
                 tr.bg-white
                   td IBM Rational DOORS
                   td IBM Rational DOORS
-                  td 
+                  //td 
                     a(href="http://www-03.ibm.com/software/products/en/ratidoor", target="_blank", rel="noopener noreferrer") http://www-03.ibm.com/software/products/en/ratidoor
                   
                 tr.bg-white
                   td Visure Requirements
                   td Visure Solutions
-                  td 
+                  //td 
                     a(href="http://www.visuresolutions.com/products/index.php", target="_blank", rel="noopener noreferrer") https://visuresolutions.com/visure-requirements-system-requirements/index.php
                 tr.bg-white
                   td Reqtify
                   td Dassault Systèmes
-                  td 
+                  //td 
                     a.mt-1(href="https://www.claytex.com/products/reqtify/"  target="_blank") claytex.com/products/reqtify
                 tr.bg-white
                   td Jama
                   td Jama Software
-                  td 
+                  //td 
                     a.mt-1(href="http://www.jamasoftware.com/"  target="_blank") jamasoftware.com
                 tr.bg-white
                   td Accept 360
                   td Accept Software 
-                  td 
+                  //td 
                     a.mt-1(href="https://www3.technologyevaluation.com/solutions/17078/accept360"  target="_blank") technologyevaluation.com/solutions/17078/accept360
                 tr.bg-white
                   td Gatherspace
                   td Gatherspace
-                  td 
+                  //td 
                     a.mt-1(href="https://www.gatherspace.com/project-management-software-solutions/"  target="_blank") gatherspace.com/project-management-software-solutions/
                 tr.bg-white
                   td RequisitePro
                   td IBM Rational
-                  td 
+                  //td 
                     a.mt-1(href="https://www.ibm.com/support/pages/rational-requisitepro-713"  target="_blank") ibm.com/support/pages/rational-requisitepro-713
                 
     .fondo-3.p-5.pt-0.mn

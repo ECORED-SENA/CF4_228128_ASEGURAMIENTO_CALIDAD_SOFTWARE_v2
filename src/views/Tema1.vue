@@ -78,8 +78,8 @@
     p.mb-5(data-aos='fade-right') Haga un chequeo del siguiente video para adentrarse en las generalidades y aspectos clave de la construcción de prototipos:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/rVxFBN0q0tk?si=mZzjdtqHS3iVWxsl" title="Construcción de prototipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Construcción de prototipos
     .p-4(style="background-color: #DEE1ED").mb-5
       p.fw-bold Por otra parte, el uso inadecuado de los prototipos también puede generar algunos riesgos, entre los que se encuentran:
       .row.justify-content-center.align-items-start
@@ -123,7 +123,7 @@
           .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
-                img(src="@/assets/curso/temas/logos/logo2.svg", alt="Logo de Marvel App")
+                img(src="@/assets/curso/temas/logos/logo2.png", alt="Logo de Marvel App")
               .h6.text-center Marvel App
               p.mt-0.text-center
                 a.mt-1(href="https://www.marvelapp.com",target="_blank") www.marvelapp.com 
@@ -139,7 +139,7 @@
           .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
-                img(src="@/assets/curso/temas/logos/logo4.svg", alt="Logo de LucidChart")
+                img(src="@/assets/curso/temas/logos/logo4b.png", alt="Logo de LucidChart")
               .h6.text-center LucidChart
               p.mt-0.text-center
                 a.mt-1(href="https://www.lucidchart.com/pages/es",target="_blank") www.lucidchart.com

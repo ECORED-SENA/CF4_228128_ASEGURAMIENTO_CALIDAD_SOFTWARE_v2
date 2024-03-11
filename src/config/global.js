@@ -198,7 +198,7 @@ export default {
     {
       referencia:
         'Penzenstadler, B. (s. f.). <i>Requirements Engineering. CSU Long Beach.</i>',
-      link: 'https://bit.ly/3rtBKXN ',
+      link: 'https://bit.ly/3rtBKXN',
     },
     {
       referencia:
