@@ -198,12 +198,14 @@ export default {
     {
       referencia:
         'Penzenstadler, B. (s. f.). <i>Requirements Engineering. CSU Long Beach.</i>',
-      link: 'https://bit.ly/3rtBKXN',
+      link:
+        'http://www.foss2serve.org/index.php/Requirements_Engineering,_CSU_Long_Beach,_Penzenstadler',
     },
     {
       referencia:
         'Porfirio, C. (s. f.). Técnicas de priorización: el desafío de conseguir un orden para las funcionalidades. atSistemas - Consultoría IT Blog.',
-      link: 'https://bit.ly/3cvumqz ',
+      link:
+        'https://www.knowmadmood.com/es/blog/tcnicas-de-priorizacin-el-desafo-de-conseguir-un-orden-para-las-funcionalidades',
     },
     {
       referencia:
