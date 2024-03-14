@@ -243,16 +243,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Henry Eduardo Bastidas Paruma',
-          cargo: 'Experto temático',
+          nombre: 'Zulema Yidney León Escobar',
+          cargo: 'Experto temática',
           centro:
-            'Centro de teleinformática y producción industrial - Regional Cauca',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Jonathan Guerrero Astaiza',
           cargo: 'Experto temático',
           centro:
-            'Centro de teleinformática y producción industrial - Regional Cauca',
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Zulema Yidney León Escobar',
@@ -261,32 +261,9 @@ export default {
             'Centro de teleinformática y producción industrial - Regional Cauca',
         },
         {
-          nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Revisión metodológica y pedagógica',
-          centro: 'Centro de gestión industrial - Regional Bogotá',
-        },
-        {
-          nombre: 'Alix Cecilia Chinchilla Rueda',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de gestión industrial - Regional Bogotá',
-        },
-        {
-          nombre: 'José Gabriel Ortiz Abella',
-          cargo: 'Evaluador instruccional',
-          centro:
-            'Centro para la industria y la comunicación gráfica - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Fabián Leonardo Correa Díaz',
-          cargo: 'Diseñador instruccional',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Metodólogo para formación virtual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -294,33 +271,28 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carmen Alicia Martínez Torres',
-          cargo: 'Animador y Productor Multimedia',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Camilo Andrés Bolaño Rey',
-          cargo: 'Locución',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
           nombre: 'Carlos Julián Ramírez Benítez',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Edgar Mauricio Cortes Garcia',
-          cargo: 'Desarrollador Full-stack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Edgar Mauricio Cortés García',
+          cargo: 'Desarrollador Fullstack',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Pendiente',
+          cargo: 'Locución',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Pendiente',
+          cargo: 'Animador y Productor Multimedia',
+          centro:
+            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
