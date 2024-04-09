@@ -78,8 +78,9 @@
     p.mb-5(data-aos='fade-right') Haga un chequeo del siguiente video para adentrarse en las generalidades y aspectos clave de la construcción de prototipos:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/rVxFBN0q0tk?si=mZzjdtqHS3iVWxsl" title="Construcción de prototipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/yxspMjOBP8Y" title="Construcción de prototipos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Construcción de prototipos
+      
     .p-4(style="background-color: #DEE1ED").mb-5
       p.fw-bold Por otra parte, el uso inadecuado de los prototipos también puede generar algunos riesgos, entre los que se encuentran:
       .row.justify-content-center.align-items-start
