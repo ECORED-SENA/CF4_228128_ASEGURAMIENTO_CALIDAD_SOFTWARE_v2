@@ -283,13 +283,7 @@ export default {
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Pendiente',
-          cargo: 'Locución',
-          centro:
-            'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Pendiente',
+          nombre: 'Laura Gisselle Murcia Pardo',
           cargo: 'Animador y Productor Multimedia',
           centro:
             'Centro de Formación Centro de Servicios de Salud - Regional Antioquia',
