@@ -114,7 +114,7 @@
                   
               tbody
                 tr
-                  td Aplicación de gestión de requisitos para optimizar la comunicación la colaboración y la verificación de requisitos.
+                  td Aplicación de gestión de requisitos para optimizar la comunicación, la colaboración y la verificación de requisitos.
                   td Herramienta de administración de requisitos que permite crear y compartir basado en documentos potenciados.
                   td Herramienta de administración de requisitos que permite visibilidad y control.
         .py-4.py-md-5.bg-white.px-5(titulo="Herramientas libres" :icono="require('@/assets/curso/temas/23.svg')")

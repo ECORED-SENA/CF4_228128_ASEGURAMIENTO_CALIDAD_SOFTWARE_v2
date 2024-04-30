@@ -139,16 +139,10 @@ export default {
     },
     {
       tema: '1.3. Generación de casos de prueba',
-      referencia: 'Nastaquias, R. (27 de mayo de 2019). Tutorial de Moqups.',
+      referencia:
+        'Nastaquias, R. por Gallardo, S. (27 de mayo de 2019). Tutorial de Moqups.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=H4OZE1e1MW8',
-    },
-    {
-      tema: '3. Herramientas para la gestión de requisitos',
-      referencia:
-        'Overti. (08 de abril de 2021). Herramientas de gestión de requisitos.',
-      tipo: 'Página web',
-      link: 'https://www.overti.es/index.php',
     },
     {
       tema: '3. Herramientas para la gestión de requisitos',
@@ -243,20 +237,14 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Zulema Yidney León Escobar',
-          cargo: 'Experto temática',
-          centro:
-            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
-        },
-        {
           nombre: 'Jonathan Guerrero Astaiza',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Zulema Yidney León Escobar',
-          cargo: 'Experta temática',
+          cargo: 'Experta Temática',
           centro:
             'Centro de teleinformática y producción industrial - Regional Cauca',
         },

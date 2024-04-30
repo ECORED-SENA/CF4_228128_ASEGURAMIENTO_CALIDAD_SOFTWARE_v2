@@ -37,7 +37,7 @@
       h2 1.1 Revisiones de requerimientos
     .row.justify-content-center.mb-5
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
-        p Las revisiones de los requerimientos es un proceso manual que involucra la participación de personas de parte de la organización constructora del <i>software</i> así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
+        p Las revisiones de los requerimientos son un proceso manual que involucra la participación de personas de parte de la organización constructora del <i>software</i> así como la de los clientes. Por lo general, en este proceso se revisa el documento de requerimientos tratando de encontrar alguna anomalía y/u omisiones en la escritura de estos.
         .p-4(style="background-color: #BAE9D9 ")
           .row.justify-content-center.align-items-center
             .col-lg-2.col-3.mb-lg-0.mb-3: img(src='@/assets/curso/temas/2.svg', alt='')
@@ -45,7 +45,7 @@
               p.mb-0(data-aos='fade-right') Esta revisión se puede realizar de manera informal o formal (Sommerville, 2011). En una revisión informal, se requiere verificar, con tantos <i>stakeholders</i> como sea posible, el documento generado para recibir confirmación por parte de ellos de que lo escrito sí refleja su deseo. Esta revisión informal permite, de manera muy sencilla, detectar muchos problemas antes de establecer cualquier formalismo de revisión.
       .col-lg-5(data-aos="fade-left"): img(src='@/assets/curso/temas/3.png', alt='')
     .fondo-1.p-4
-      p(data-aos='fade-right') En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos y explicando cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. #[b Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:]
+      p(data-aos='fade-right') En una revisión formal, el equipo de desarrollo debe introducir al cliente por cada uno de los requerimientos establecidos y explicar cada una de sus implicaciones. El equipo encargado de la revisión deberá verificar cada requerimiento de forma individual y realizar el análisis de conjunto. #[b Además, en el proceso de verificación debe resolverse cada una de las siguientes preguntas:]
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-1.col-4.mb-lg-0.mb-3: img(src='@/assets/curso/temas/4.svg', alt='')
         .col-lg-11
@@ -174,8 +174,8 @@
           .col-xl-3.col-md-6.mb-4.mb-xl-0
             .bg-blueligth.p-4
               figure
-                img(src="@/assets/curso/temas/logos/logo8.svg", alt="Logo de Picodo")
-              .h6.text-center Picodo
+                img(src="@/assets/curso/temas/logos/logo8.svg", alt="Logo de Pidoco")
+              .h6.text-center Pidoco
               p.mt-0.text-center
                 a.mt-1(href="https://www.pidoco.com/en",target="_blank")  www.pidoco.com
     
@@ -183,7 +183,7 @@
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.3 Generación de casos de prueba
     .fondo-2.p-5.mn
-      p.mb-5(data-aos='fade-right') Desarrollar pruebas para los requerimientos permite evidenciar problemas antes de escribir cualquier línea de código. Normalmente, si es complejo construir un caso de prueba para un requerimiento esto es un indicio de que el requerimiento, puede ser difícil de implementar, por lo que debería considerarse.
+      p.mb-5(data-aos='fade-right') Desarrollar pruebas para los requerimientos permite evidenciar problemas antes de escribir cualquier línea de código. Normalmente, si es complejo construir un caso de prueba para un requerimiento, esto es un indicio de que el requerimiento, puede ser difícil de implementar, por lo que debería considerarse.
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.mb-lg-0.mb-3
           .cajon-b.color-acento-contenido.p-3.mb-5
