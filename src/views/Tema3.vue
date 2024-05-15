@@ -52,7 +52,7 @@
             span Herramientas de gestión de requisitos
           .tabla-a.color-acento-contenido
             table
-              caption Nota: Nota: Tomada de Sevilla (2021).
+              caption Nota: Tomada de Sevilla (2021).
               thead
                 tr
                   th(style="background-color: #273A89" ).text-white.fst-italic  Requirements Management Tool

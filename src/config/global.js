@@ -117,43 +117,42 @@ export default {
   },
   complementario: [
     {
-      tema: '1. Validación de requerimientos',
+      tema: 'Validación de requerimientos',
       referencia:
         'Axelo 19. (7 de julio de 2019). Adobe Xd-Prototipado interactivo de aplicaciones y páginas web (sin programación).',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=AQjU9-zc4Hk',
     },
     {
-      tema: '1. Validación de requerimientos',
+      tema: 'Validación de requerimientos',
       referencia:
         'Fundación Educreatic. (2018, 19 abril). Crear prototipo pagina web en mockup balsamiq (caso de estudio Kiri).',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=VMzckBNgoNc',
     },
     {
-      tema: '1.2. Construcción de prototipos',
+      tema: 'Construcción de prototipos',
       referencia:
         'León, C. (12 de noviembre de 2018). Diseño de interfaz de usuario de app con MarvelApp.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=GG3ab1058Yw',
     },
     {
-      tema: '1.3. Generación de casos de prueba',
-      referencia:
-        'Nastaquias, R. por Gallardo, S. (27 de mayo de 2019). Tutorial de Moqups.',
+      tema: 'Generación de casos de prueba',
+      referencia: 'Gallardo, S. (27 de mayo de 2019). Tutorial de Moqups.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=H4OZE1e1MW8',
     },
     {
-      tema: '3. Herramientas para la gestión de requisitos',
+      tema: 'Herramientas para la gestión de requisitos',
       referencia:
-        'Barón, A. (08 de abril de 2021). Herramientas para apoyar ingeniería de requisitos.',
+        'Barón, A. (5 de Septiembre de 2012). Herramientas para apoyar ingeniería de requisitos.',
       tipo: 'Presentación',
       link:
         'https://prezi.com/kuflo3saesne/herramientas-para-apoyar-ingenieria-de-requisitos/',
     },
     {
-      tema: '3. Herramientas para la gestión de requisitos',
+      tema: 'Herramientas para la gestión de requisitos',
       referencia:
         'IBM Rational RequisitePro Integration. (10 de septiembre de 2020). Integrate RequisitePro.',
       tipo: 'Página web',
@@ -212,7 +211,7 @@ export default {
       link: '',
     },
     {
-      referencia: 'Sevilla, J. (2021). Herramientas de gestión de requisitos. ',
+      referencia: 'Overti (2016). Herramientas de gestión de requisitos. ',
       link:
         'http://www.overti.es/tecnologia/296-herramientas-de-gestion-de-requisitos',
     },
@@ -298,7 +297,7 @@ export default {
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
